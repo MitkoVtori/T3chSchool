@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 How to create our first page, how to add title and favicon</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+    <style>
+    pre {
+        background: #222222;
+        color: #B562FF;
+        width: 1000px;
+        height: 600px;
+        margin-left: 150px
+    }
+    h3 {
+    font-size: 50px
+    }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 65px">How to start our first project</h1>
+    <br>
+    <p style="font-size: 20px">
+        <strong>You always</strong> should start with one really important tag, <strong>!DOCTYPE</strong>.
+        <br>
+        !DOCTYPE is used to tell the computer that, you're working with the newest version of html. If you're working with <strong>HTML5</strong>,
+        <br>
+        it's Important to use !DOCTYPE. After you make your !DOCTYPE, always create <strong><<text style="color: white">.</text>html></strong> tag.
+        The <<text style="white">.</text>html> tag is where you build your site. All your code should be inside the html tag.
+    </p>
+    <br>
+    <h3>Example 1:</h3>
+    <pre style="width: 300px; height: 100px">
+    <code style="font-size: 20px"><xmp> <!DOCTYPE html></xmp></code>
+    </pre>
+    <br>
+    <h3 style="font-size: 50px">Example 2:</h3>
+    <pre style="font-size: 25px; width: 350px; height: 175px; margin-bottom: 50px">
+    <code><xmp> <!DOCTYPE html>
+ <html>
+ </html>
+    </xmp></code>
+    </pre>
+    <br>
+    <br>
+        <p style="font-size: 50px">
+            Also, you can add language to your html and text, <br>so google can automatically translate your page.
+        </p>
+    <h3>Example 3:</h3>
+    <pre style="width: 450px; height: 65px"><code style="font-size: 35px"><xmp> <html lang="en"></xmp></code></pre>
+    <strong style="font-size: 25px">Also can translate from other languages to English.<br>If you use multiple languages in your text, you can tell what is the language you used in a single text
+        <br>
+        or for a single word, so the ranslator will know what to translate.<br><text style="font-size: 35px">Example:</text>
+    </strong>
+    <pre style="color: #6ADC20; height: 450px"><code style="font-size: 35px"><xmp><text lang="bg">Здравей, как си?</text>
+<text lang="fr">Bonjour comment vas-tu?</text>
+<text lang="zh">你还好吗?</text>
+<text>Hello, how are you?</text>
+
+#  if your main language (<html lang="en">)
+#  is for example, English.
+#  You do not have to tell google
+#  what language do you use
+#  when you write on English.</xmp></code></pre>
+<br>
+
+<h1 style="margin-top: 100px; font-size: 50px">Creating the Head</h1>
+<br>
+<p style="font-size: 30px">The <strong><<text style="color: white">.</text>head></strong> is one of the most Important parts in the html.<br>
+    In the Head you can do lots of things like:
+    <ul style="font-size: 25px">
+        <li>Adding the title and a favicon of the page:<br>
+            <img src="/Images/title & favicon.png" style="width: 300px; margin-left: 75px"></li>
+        <li>Importing files(for example, your css file)</li>
+        <li>Writing css in the head & much others...</li>
+    </ul>
+    </p>
+    <br>
+    <h3>Adding <<text style="color: white">.</text>head> and title:</h3>
+    <pre style="font-size: 25px; width: 500px; height: 260px; margin-bottom: 50px">
+    <code><xmp> <!DOCTYPE html>
+ <html lang="en-US">
+    <head>
+        <title>Your Title</title>
+    </head>
+ </html>
+    </xmp></code>
+    </pre>
+    <br>
+<h3>Adding Favicon:</h3>
+<p style="font-size: 50px">Create folder Images where you'll sort your images:<br>
+<img src="Images/Images.png" style="width: 250px; height: 75px; margin-left: 700px">
+<br>Create your favicon picture and save it in the folder:<br>
+<img src="Images/favicon.png" style="width: 150px">
+</p>
+    <h3>Use this tag:</h3>
+    <pre style="font-size: 25px; width: 1200px; height: 50px"><code style="color: #82F339"><xmp><link rel="icon" type="image/x-icon" href="nameOfFolder/NameOfPicture.ico"></xmp></code></pre>
+<p style="font-size: 65px">Paste it in the head</p>
+<h3>Result:</h3>
+<pre style="font-size: 20px; height: 250px; margin-bottom: 50px"><code><xmp><!DOCTYPE html>
+ <html lang="en-US">
+    <head>
+        <title>Your Title</title>
+        <link rel="icon" type="image/x-icon" href="nameOfFolder/NameOfPicture.ico">
+    </head>
+ </html></xmp></code></pre>
+<h1 style="font-size: 75px">HTML <<text style="color: white">.</text>meta> charset Attribute</h1>
+<h3 style="font-size: 65px">Definition and Usage</h3>
+    <p style="font-size: 25px">The <strong style="color: red">charset</strong> attribute specifies the character encoding for the <strong>HTML</strong> document.
+<br>
+        <br>The <strong>HTML5</strong> specification encourages web developers to use the <strong style="color: #39A4F3">UTF-8</strong> character set, which covers almost all of the characters and symbols in the world!</p>
+<br>
+<h3>Example 1:</h3>
+<pre style="width: 800px; height: 200px; margin-bottom: 100px"><code style="font-size: 50px"><xmp style="color: red; margin: 0"><head></xmp><xmp style="color: #6CF339; margin: 0">    <meta charset="UTF-8"></xmp><xmp style="color: red; margin: 0"></head></xmp></code></pre>
+<br>
+<br>
+<h3>Example head:</h3>
+<pre style="width: 1500px; margin-bottom: 100px"><code style="font-size: 30px"><xmp style="color: yellow; margin: 0"><!DOCTYPE html></xmp><xmp style="color: #148400; margin: 0"><html lang="en-US"></xmp><xmp style="color: red; margin: 0">    <head></xmp><xmp style="color: #6CF339; margin: 0">        <meta charset="UTF-8"></xmp><xmp style="color: #00A9E4; margin: 0">        <title></xmp>            Your Title<xmp style="color: #00A9E4; margin: 0">        </title></xmp><xmp style="color: #3BE400; margin: 0">        <link rel="icon" type="image/x-icon" href="nameOfFolder/NameOfPicture.ico"></xmp><xmp style="color: red; margin: 0">    </head></xmp><xmp style="color: #148400; margin: 0"></html></xmp></code></pre>
+<h4 style="font-size: 75px; margin-left: 475px"><a href="/HTML5 Body">How to create our body</a></h4>
+</body>
+</html>
